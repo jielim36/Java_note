@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+    <!--  数据源名称：代表连接池  -->
+    <named-config name="jielim36">
+
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/java_database</property>
+        <property name="user">root</property>
+        <property name="password">123456</property>
+
+        <!--   最大连接数     -->
+        <property name="maxPoolSize">50</property>
+
+        <!--   最小连接数，当系统发现初始连接数有10个却可能只有用到2个连接，就会关掉没有用的连接     -->
+        <property name="minPoolSize">5</property>
+
+        <!--   每次增长的连接数     -->
+        <property name="acquireIncrement">5</property>
+
+        <!--   初始连接数     -->
+        <property name="initialPoolSize">10</property>>
+
+        <!--   可连接的最多的命令对象数     -->
+        <property name="maxStatements">5</property>>
+
+        <!--    每个连接对象可连接的最多的命令对象数    -->
+        <property name="maxStatementsPerConnection">2</property>>
+
+        <!--   连接关闭前可以空闲的最长时间     -->
+        <property name="maxIdleTime">300</property>
+
+        <!--   确保空闲连接仍然存在的测试之间的时间量   -->
+        <property name="idleConnectionTestPeriod">1800</property>
+
+        <!--   测试连接时使用的 SQL 查询   -->
+        <property name="preferredTestQuery">SELECT 1;</property>
+
+
+    </named-config>
+</c3p0-config>

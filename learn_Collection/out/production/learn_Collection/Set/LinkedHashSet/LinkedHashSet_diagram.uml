@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="163.0" y="225.5">java.util.AbstractCollection</node>
+    <node x="204.5" y="345.5">java.util.AbstractSet</node>
+    <node x="-96.5" y="345.5">java.lang.Cloneable</node>
+    <node x="135.0" y="485.5">java.util.HashSet</node>
+    <node x="-45.5" y="605.5">java.util.LinkedHashSet</node>
+    <node x="57.0" y="-14.5">java.lang.Iterable</node>
+    <node x="49.5" y="105.5">java.util.Collection</node>
+    <node x="60.0" y="345.5">java.io.Serializable</node>
+    <node x="31.0" y="225.5">java.util.Set</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.HashSet" target="java.io.Serializable" relationship="REALIZATION">
+      <point x="-30.0" y="-14.5" />
+      <point x="170.0" y="460.0" />
+      <point x="40.0" y="460.0" />
+      <point x="40.0" y="420.0" />
+      <point x="120.0" y="420.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.util.Set" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-40.0" y="14.5" />
+    </edge>
+    <edge source="java.util.Collection" target="java.lang.Iterable" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.lang.Cloneable" relationship="REALIZATION">
+      <point x="-40.0" y="-14.5" />
+      <point x="40.0" y="14.5" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.io.Serializable" relationship="REALIZATION">
+      <point x="-40.0" y="-14.5" />
+      <point x="0.0" y="520.0" />
+      <point x="120.0" y="520.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="40.0" y="-14.5" />
+      <point x="-40.0" y="14.5" />
+    </edge>
+    <edge source="java.util.AbstractCollection" target="java.util.Collection" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="260.0" y="200.0" />
+      <point x="160.0" y="200.0" />
+      <point x="40.0" y="14.5" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.util.Set" relationship="REALIZATION">
+      <point x="-40.0" y="-14.5" />
+      <point x="0.0" y="520.0" />
+      <point x="-120.0" y="520.0" />
+      <point x="-120.0" y="320.0" />
+      <point x="40.0" y="320.0" />
+      <point x="-40.0" y="14.5" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.util.Set" relationship="REALIZATION">
+      <point x="-30.0" y="-14.5" />
+      <point x="170.0" y="460.0" />
+      <point x="40.0" y="460.0" />
+      <point x="-40.0" y="14.5" />
+    </edge>
+    <edge source="java.util.AbstractSet" target="java.util.AbstractCollection" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="280.0" y="320.0" />
+      <point x="260.0" y="320.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.util.AbstractSet" target="java.util.Set" relationship="REALIZATION">
+      <point x="-40.0" y="-14.5" />
+      <point x="240.0" y="320.0" />
+      <point x="40.0" y="320.0" />
+      <point x="-40.0" y="14.5" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.util.HashSet" relationship="GENERALIZATION">
+      <point x="40.0" y="-14.5" />
+      <point x="80.0" y="580.0" />
+      <point x="160.0" y="580.0" />
+      <point x="-40.0" y="14.5" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.lang.Cloneable" relationship="REALIZATION">
+      <point x="-30.0" y="-14.5" />
+      <point x="170.0" y="460.0" />
+      <point x="40.0" y="460.0" />
+      <point x="40.0" y="440.0" />
+      <point x="0.0" y="440.0" />
+      <point x="40.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7134328358208956" showDependencies="false" x="128.5" y="320.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

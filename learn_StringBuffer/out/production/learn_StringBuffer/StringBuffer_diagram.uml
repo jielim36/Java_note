@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="72.0" y="-14.5">java.io.Serializable</node>
+    <node x="69.0" y="105.5">java.lang.StringBuffer</node>
+    <node x="62.0" y="185.5">java.lang.CharSequence</node>
+    <node x="54.0" y="51.5">java.lang.Comparable</node>
+    <node x="-80.0" y="305.5">java.lang.AbstractStringBuilder</node>
+    <node x="-92.0" y="185.5">java.lang.Appendable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.lang.StringBuffer" target="java.io.Serializable" relationship="REALIZATION">
+      <point x="63.0" y="0.0" />
+      <point x="227.5" y="120.0" />
+      <point x="227.5" y="0.0" />
+      <point x="60.0" y="0.0" />
+    </edge>
+    <edge source="java.lang.AbstractStringBuilder" target="java.lang.Appendable" relationship="REALIZATION">
+      <point x="-40.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.lang.StringBuffer" target="java.lang.CharSequence" relationship="REALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="java.lang.StringBuffer" target="java.lang.AbstractStringBuilder" relationship="GENERALIZATION">
+      <point x="-63.0" y="0.0" />
+      <point x="-124.5" y="120.0" />
+      <point x="-124.5" y="352.0" />
+      <point x="12.0" y="352.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.lang.AbstractStringBuilder" target="java.lang.CharSequence" relationship="REALIZATION">
+      <point x="-92.0" y="0.0" />
+      <point x="-109.5" y="320.0" />
+      <point x="-109.5" y="160.0" />
+      <point x="132.0" y="160.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="java.lang.StringBuffer" target="java.lang.Comparable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="false" x="190.0" y="130.0" />
+  <SelectedNodes>
+    <node>java.lang.CharSequence</node>
+    <node>java.lang.Appendable</node>
+    <node>java.lang.AbstractStringBuilder</node>
+    <node>java.lang.Comparable</node>
+    <node>java.io.Serializable</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

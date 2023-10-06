@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="217.0" y="-14.5">java.io.Serializable</node>
+    <node x="39.0" y="-14.5">java.lang.Comparable</node>
+    <node x="-99.5" y="-14.5">java.lang.Cloneable</node>
+    <node x="-90.0" y="225.5">java.util.JapaneseImperialCalendar</node>
+    <node x="-36.0" y="105.5">java.util.Calendar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.Calendar" target="java.io.Serializable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="17.0" y="40.0" />
+      <point x="277.0" y="40.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.util.Calendar" target="java.lang.Cloneable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="17.0" y="40.0" />
+      <point x="-43.0" y="40.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.util.Calendar" target="java.lang.Comparable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="17.0" y="40.0" />
+      <point x="117.0" y="40.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.util.JapaneseImperialCalendar" target="java.util.Calendar" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="false" x="128.5" y="130.0" />
+  <SelectedNodes>
+    <node>java.util.JapaneseImperialCalendar</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

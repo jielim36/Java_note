@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="404.0" y="-14.5">java.lang.Comparable</node>
+    <node x="232.0" y="-14.5">java.lang.CharSequence</node>
+    <node x="73.0" y="-14.5">java.lang.constant.ConstantDesc</node>
+    <node x="-78.0" y="-14.5">java.io.Serializable</node>
+    <node x="-62.0" y="105.5">java.lang.String</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.lang.String" target="java.lang.Comparable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-18.0" y="80.0" />
+      <point x="482.0" y="80.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.lang.String" target="java.io.Serializable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.lang.String" target="java.lang.CharSequence" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-18.0" y="80.0" />
+      <point x="302.0" y="80.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.lang.String" target="java.lang.constant.ConstantDesc" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-18.0" y="80.0" />
+      <point x="142.0" y="80.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="false" x="251.0" y="70.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-502.02405857740587" y="133.77405857740584">example07_FileCopy</node>
+    <node x="-622.5324267782426" y="325.5">example06_OutputStream</node>
+    <node x="-9.0" y="445.5">java.io.FileOutputStream</node>
+    <node x="-741.3859832635983" y="343.54916317991626">example11_Decorator_Pattern</node>
+    <node x="514.5" y="565.5">java.io.FileReader</node>
+    <node x="-825.4246861924685" y="553.9675732217573">example15_BufferedOutputStream_and_BufferedInputStream</node>
+    <node x="-685.8776150627614" y="622.0847280334727">example14_BufferedCopy</node>
+    <node x="745.5" y="445.5">java.io.InputStreamReader</node>
+    <node x="356.5" y="185.5">java.io.Closeable</node>
+    <node x="-629.5324267782426" y="448.7583682008368">example12_BufferedReader</node>
+    <node x="-521.0" y="25.5">example16_BufferedCopy2</node>
+    <node x="-158.5" y="325.5">java.io.OutputStream</node>
+    <node x="627.5" y="325.5">java.io.InputStream</node>
+    <node x="785.0" y="325.5">java.io.Reader</node>
+    <node x="552.5" y="445.5">java.io.FilterInputStream</node>
+    <node x="-398.9748953974895" y="85.5">example08_FileReader</node>
+    <node x="41.0" y="65.5">java.lang.AutoCloseable</node>
+    <node x="517.5" y="185.5">java.lang.Readable</node>
+    <node x="-445.24058577405856" y="-14.5">example09_FileWriter</node>
+    <node x="377.0" y="445.5">java.io.FileInputStream</node>
+    <node x="27.5" y="325.5">java.io.Writer</node>
+    <node x="187.0" y="445.5">java.io.ObjectInputStream</node>
+    <node x="-199.0" y="565.5">java.io.BufferedInputStream</node>
+    <node x="-941.4905857740584" y="401.394351464435">example10_BufferedReader_BufferedWriter_Introduction</node>
+    <node x="-598.0324267782426" y="202.24163179916317">example13_BufferedWriter</node>
+    <node x="-598.0324267782426" y="301.8179916317991">example17_Object</node>
+    <node x="-219.5" y="445.5">java.io.ObjectOutputStream</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.io.ObjectInputStream" target="java.lang.AutoCloseable" relationship="REALIZATION">
+      <point x="-43.333333333333314" y="-14.5" />
+      <point x="228.66666666666669" y="400.0" />
+      <point x="12.0" y="400.0" />
+      <point x="12.0" y="280.0" />
+      <point x="52.0" y="280.0" />
+      <point x="-60.0" y="14.5" />
+    </edge>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="412.0" y="160.0" />
+      <point x="152.0" y="160.0" />
+      <point x="40.0" y="14.5" />
+    </edge>
+    <edge source="java.io.OutputStream" target="java.io.Closeable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-88.0" y="300.0" />
+      <point x="412.0" y="300.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.io.FileReader" target="java.io.InputStreamReader" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="572.0" y="540.0" />
+      <point x="832.0" y="540.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.io.Reader" target="java.lang.Readable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="832.0" y="300.0" />
+      <point x="732.0" y="300.0" />
+      <point x="732.0" y="260.0" />
+      <point x="572.0" y="260.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.io.FilterInputStream" target="java.io.InputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-60.0" y="14.5" />
+    </edge>
+    <edge source="java.io.InputStream" target="java.io.Closeable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="692.0" y="300.0" />
+      <point x="412.0" y="300.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.io.FileInputStream" target="java.io.InputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="452.0" y="420.0" />
+      <point x="632.0" y="420.0" />
+      <point x="-60.0" y="14.5" />
+    </edge>
+    <edge source="java.io.ObjectOutputStream" target="java.io.OutputStream" relationship="GENERALIZATION">
+      <point x="40.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.io.Reader" target="java.io.Closeable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="832.0" y="300.0" />
+      <point x="732.0" y="300.0" />
+      <point x="732.0" y="280.0" />
+      <point x="412.0" y="280.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.io.FileOutputStream" target="java.io.OutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="72.0" y="420.0" />
+      <point x="-88.0" y="420.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.io.InputStreamReader" target="java.io.Reader" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.io.ObjectOutputStream" target="java.lang.AutoCloseable" relationship="REALIZATION">
+      <point x="-40.0" y="-14.5" />
+      <point x="-168.0" y="420.0" />
+      <point x="-268.0" y="420.0" />
+      <point x="-268.0" y="160.0" />
+      <point x="52.0" y="160.0" />
+      <point x="-60.0" y="14.5" />
+    </edge>
+    <edge source="java.io.Writer" target="java.io.Closeable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="72.0" y="300.0" />
+      <point x="412.0" y="300.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.io.ObjectInputStream" target="java.io.InputStream" relationship="GENERALIZATION">
+      <point x="40.0" y="-14.5" />
+      <point x="312.0" y="420.0" />
+      <point x="632.0" y="420.0" />
+      <point x="-60.0" y="14.5" />
+    </edge>
+    <edge source="java.io.BufferedInputStream" target="java.io.FilterInputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-108.0" y="520.0" />
+      <point x="632.0" y="520.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7587301587301588" showDependencies="false" x="433.6119246861924" y="378.0910041841003" />
+  <SelectedNodes>
+    <node>example10_BufferedReader_BufferedWriter_Introduction</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

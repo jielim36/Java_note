@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="439.5" y="105.5">java.lang.reflect.Type</node>
+    <node x="300.0" y="105.5">java.io.Serializable</node>
+    <node x="190.0" y="-14.5">java.lang.Object</node>
+    <node x="125.0" y="225.5">java.lang.Class</node>
+    <node x="126.5" y="105.5">java.lang.invoke.TypeDescriptor</node>
+    <node x="-44.0" y="-14.5">java.lang.reflect.AnnotatedElement</node>
+    <node x="-84.0" y="105.5">java.lang.reflect.GenericDeclaration</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.lang.Class" target="java.lang.reflect.GenericDeclaration" relationship="REALIZATION">
+      <point x="20.0" y="-14.5" />
+      <point x="200.0" y="160.0" />
+      <point x="0.0" y="160.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.lang.Class" target="java.lang.reflect.AnnotatedElement" relationship="REALIZATION">
+      <point x="20.0" y="-14.5" />
+      <point x="200.0" y="160.0" />
+      <point x="100.0" y="160.0" />
+      <point x="100.0" y="80.0" />
+      <point x="80.0" y="80.0" />
+      <point x="40.0" y="14.5" />
+    </edge>
+    <edge source="java.lang.reflect.GenericDeclaration" target="java.lang.reflect.AnnotatedElement" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-40.0" y="14.5" />
+    </edge>
+    <edge source="java.lang.Class" target="java.io.Serializable" relationship="REALIZATION">
+      <point x="20.0" y="-14.5" />
+      <point x="200.0" y="160.0" />
+      <point x="360.0" y="160.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.lang.Class" target="java.lang.Object" relationship="GENERALIZATION">
+      <point x="55.0" y="-0.0" />
+      <point x="538.0" y="240.0" />
+      <point x="538.0" y="0.0" />
+      <point x="46.0" y="-0.0" />
+    </edge>
+    <edge source="java.lang.Class" target="java.lang.invoke.TypeDescriptor" relationship="REALIZATION">
+      <point x="20.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.lang.Class" target="java.lang.reflect.Type" relationship="REALIZATION">
+      <point x="20.0" y="-14.5" />
+      <point x="200.0" y="160.0" />
+      <point x="480.0" y="160.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.4712182061579653" showDependencies="false" x="289.5" y="130.0" />
+  <SelectedNodes>
+    <node>java.lang.Object</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

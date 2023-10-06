@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-80.5" y="204.5">java.util.Arrays.LegacyMergeSort</node>
+    <node x="-63.0" y="6.5">java.util.Arrays.ArrayItr</node>
+    <node x="-66.5" y="78.5">java.util.Arrays.ArrayList</node>
+    <node x="-66.5" y="258.5">java.util.Arrays.NaturalOrder</node>
+    <node x="-45.0" y="150.5">java.util.Arrays</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.Arrays.NaturalOrder" target="java.util.Arrays" relationship="INNER_CLASS">
+      <point x="66.5" y="0.0" />
+      <point x="98.0" y="273.0" />
+      <point x="98.0" y="129.0" />
+      <point x="0.0" y="129.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="java.util.Arrays.ArrayList" target="java.util.Arrays" relationship="INNER_CLASS">
+      <point x="0.0" y="14.5" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="java.util.Arrays.LegacyMergeSort" target="java.util.Arrays" relationship="INNER_CLASS">
+      <point x="-62.5" y="-14.5" />
+      <point x="-62.5" y="129.0" />
+      <point x="0.0" y="129.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="java.util.Arrays.ArrayItr" target="java.util.Arrays" relationship="INNER_CLASS">
+      <point x="63.0" y="0.0" />
+      <point x="84.0" y="21.0" />
+      <point x="84.0" y="129.0" />
+      <point x="0.0" y="129.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="false" x="243.0" y="91.0" />
+  <SelectedNodes>
+    <node>java.util.Arrays</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
